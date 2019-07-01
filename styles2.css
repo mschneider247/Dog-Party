@@ -1,22 +1,18 @@
-/** {
-  border: 2px solid red;
-}*/
-
 * {
   font-family: 'Roboto', sans-serif;
 }
 
 #logo {
+  margin-bottom: 60px;
   margin-left: 10px;
   margin-top: 10px;
-  margin-bottom: 60px;
   width: 140px;
 }
 
 #user-input {
-  width: 340px;
   height: 40px;
   margin: 20px 0px;
+  width: 340px;
 }
 
 #input-button {
@@ -35,33 +31,33 @@
 }
 
 .dog-show-profile {
-  width: 20%;
   margin-left: 20px;
+  width: 20%;
 }
 
 .dog-show-details {
-  float: right;
-  width: 75%;
-  position: relative;
   bottom: 200px;
+  float: right;
+  position: relative;
+  width: 75%;
 }
 
 .dog-image {
-  border: 4px solid #9a969c;
   border-radius: 50%;
+  border: 4px solid #9a969c;
   width: 150px;
 }
 
 .main-dog {
-  width: 340px;
   float: left;
   margin: 20px 0px 0px 20px;
+  width: 340px;
 }
 
 .dog-show {
-  width: 83%;
-  height: 240px;
   display: inline-block;
+  height: 240px;
+  width: 83%;
 }
 
 .form-box {
@@ -71,63 +67,63 @@
 }
 
 .gallery-button {
-  float: right;
-  margin-right: 30px;
-  height: 50px;
-  width: 180px;
-  color: white;
-  font-size: 1.1em;
   background-color: #3e3544;
+  color: white;
+  float: right;
+  font-size: 1.1em;
+  height: 50px;
+  margin-right: 30px;
+  width: 180px;
 }
 
 nav {
-  height: 1330px;
-  width: 15%;
   background-color: #9a969c;
   border-right: 3px solid #3e3544;
   float: left;
+  height: 1330px;
+  width: 15%;
 }
 
 a {
-  font-weight: 900;
   color: #000;
+  font-weight: 900;
 }
 
 h1,
 label {
-  display: inline-block;
   color: white;
+  display: inline-block;
 }
 
 li {
-  list-style-type: none;
   display: inline-block;
-  text-align: center;
+  list-style-type: none;
   margin-bottom: 60px;
   margin-right: 20%;
+  text-align: center;
 }
 
 footer {
   background-color: #3e3544;
-  height: 155px;
   color: white;
+  height: 155px;
   padding: 40px;
 }
 
 main {
-  text-align: center;
   background-color:  #3e3544;
+  text-align: center;
 }
 
 span {
-  font-weight: 900;
   float: right;
+  font-weight: 900;
 }
 
 footer p {
   display: inline;
-  margin-left: 45%;
   font-size: 1.5em;
+  margin-left: 45%;
 }
 
 div p {
