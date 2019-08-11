@@ -1,9 +1,7 @@
-var dogName = document.querySelector('.dog-name');
-var button = document.querySelector('#input-button');
-var userInput = document.querySelector('#user-input');
+$(document).ready( () => {
 
-button.addEventListener('click', switchName);
+  $('#input-button').on('click', () => {
+    $('.dog-name').text($('#user-input').val())
+  });
 
-function switchName() {
-  dogName.innerText = userInput.value;
-}
+});
